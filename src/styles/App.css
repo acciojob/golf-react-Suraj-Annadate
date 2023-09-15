@@ -2,6 +2,7 @@
     width:50%;
     height:50%;
     margin: auto;
+    position: relative;
 }
 body html .root {
     height: 100%;
@@ -9,9 +10,10 @@ body html .root {
 .ball{
     background-color: black;
     box-shadow: 0 10px 10px -6px;
-    position: relative;
-    right: 0px;
+    position: absolute;
     height: 50px;
     width: 50px;
     border-radius: 25px;
+    display: flex;
+    justify-content: center;
 }
